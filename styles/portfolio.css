@@ -102,6 +102,7 @@ margin-top: 0;
 main{
   max-width: 1140px;
   margin:0 auto;
+  margin-top: 130px;
 }
 
 /* About Section
@@ -135,9 +136,13 @@ line-height: 30px;
   display:flex;
   justify-content: space-between;
   align-items: center;
+  gap:24px;
 }
 .box{
   padding:30px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .box img{
   width:44px;
@@ -154,4 +159,48 @@ line-height: 30px;
 font-size: 16px;
 font-weight: 400;
 line-height: 28px;
+}
+
+/* Summery Section
+==================== */
+.resume-container{
+  display:flex;
+  gap:70px;
+}
+.resume-column{
+ 
+}
+.resume-column-title, .item-heading{
+  color: #474747;
+  font-weight: 700;}
+
+.resume-column-title{
+font-size: 30px;
+margin-bottom:30px;
+}
+
+.item-heading{
+  font-size: 25px;
+  margin-bottom:0 0 10px;
+}
+.item-sub-heading, .item-description{
+  color: #757575;
+}
+.item-sub-heading{
+font-size: 20px;
+font-weight: 600;
+
+}
+.item-description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 20px 0 0;
+}
+.resume-container hr{
+  margin:30px;
+}
+.download-btn{
+  text-align: center;
+  margin-top:50px;
 }
